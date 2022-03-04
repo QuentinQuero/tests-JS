@@ -1,16 +1,18 @@
-// Test 1
-// Complèter la fonction findExtension pour qu'elle prenne un paramètre une chaine de charactère
-// Elle doit renvoyer l'extention du fichier, si la chaine contient bien le nom du fichier et l'extention
-// Sinon elle renvoye null
-// ex :
-// Si aucun paramètre n'est envoyé, renvoyer null
-// Si le paramètre est ".jpg", renvoyer null
-// Si le paramètre est "Harry.jpg", renvoyer ".jpg"
+// Test 4
+
+
+
+// lvl : MEDIUM
 
 /////// 👇 CODER CETTE FONCTION
 
-function findExtension(){}
+function ArrayConstructor(arr){
+
+}
 
 //////// ☝️ CODER AU DESSUS
 
-findExtension('toto.jpg') === 'jpg' ? console.log("OK") : console.log("NOP")
+TreeConstructor(["(1,2)", "(2,4)", "(7,2)", ""]) === true ? console.log("OK") : console.log("NOP")
+TreeConstructor(["(1,2)", "(1,3)", "(3,4)", "(3,5)", "(2,6)", "(2,7)"]) === false ? console.log("OK") : console.log("NOP")
+TreeConstructor(["(1,2)", "(2,4)", "(7,2)"]) === true ? console.log("OK") : console.log("NOP")
+TreeConstructor(["(1,2)", "(2,4)", "(7,2)"]) === true ? console.log("OK") : console.log("NOP")

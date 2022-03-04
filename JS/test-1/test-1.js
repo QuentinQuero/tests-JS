@@ -7,6 +7,8 @@
 // Si le paramètre est Quentin, renvoyer "Hey Quentin"
 // Si le paramètre est Harry, renvoyer "Hello Harry"
 
+// lvl : EASY
+
 /////// 👇 CODER CETTE FONCTION
 
 function sayHello(){}
