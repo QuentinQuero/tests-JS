@@ -1,19 +1,25 @@
 // Test 2
-// Complèter la fonction calc pour qu'elle prenne un paramètre une chaine de charactère
-// son objectif est de calculer la chaine et de renvoyer son résultat en number
-// tous les paramètres seront valides et ne contiendront qu'un chiffre, aucun nombre
-// ex : calc("1*2*3") -> return 6
-// ex : calc("1/2/3*9") -> return 1.5
+// Complèter la fonction findExtension pour qu'elle prenne un paramètre une chaine de charactère
+// Elle doit renvoyer l'extention du fichier, si la chaine contient bien le nom du fichier et l'extention
+// Sinon elle renvoye null
+// ex :
+// Si aucun paramètre n'est envoyé, renvoyer null
+// Si le paramètre est ".jpg", renvoyer null
+// Si le paramètre est "Harry.jpg", renvoyer ".jpg"
 
 // lvl : EASY
 
 /////// 👇 CODER CETTE FONCTION
 
-function calc(){}
+function findExtension(){
+
+}
 
 //////// ☝️ CODER AU DESSUS
 
-calc('1/2*3') === 1.5 ? console.log("OK") : console.log("NOP")
-calc('1/2/3*9') === 1.5 ? console.log("OK") : console.log("NOP")
-calc('1/2*3') === 15 ? console.log("OK") : console.log("NOP")
-calc('9*2-3') === 54 ? console.log("OK") : console.log("NOP")
+findExtension('toto.jpg') === 'jpg' ? console.log("OK") : console.log("NOP")
+findExtension('azertyuiop.azertyuiop.jpg') === 'jpg' ? console.log("OK") : console.log("NOP")
+findExtension('a.toto') === 'toto' ? console.log("OK") : console.log("NOP")
+findExtension('') === null ? console.log("OK") : console.log("NOP")
+findExtension(null) === null ? console.log("OK") : console.log("NOP")
+findExtension('.toto') === null ? console.log("OK") : console.log("NOP")
