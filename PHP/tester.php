@@ -1,0 +1,27 @@
+<?php
+include "test-1/test.php";
+include "test-2/test.php";
+include "test-3/test.php";
+echo("exo-1".PHP_EOL);
+echo (sayHello('toto') === "Hello toto" ?"OK". PHP_EOL: "NOP". PHP_EOL);
+echo (sayHello('Quentin') === "Hey Quentin"? "OK". PHP_EOL: "NOP". PHP_EOL);
+echo (sayHello() === "Hello toto" ? "OK". PHP_EOL : "NOP". PHP_EOL);
+echo (sayHello('Jean') === "Hello Jean" ? "OK". PHP_EOL : "NOP". PHP_EOL);
+echo (sayHello('') === "Hello " ? "OK". PHP_EOL :"NOP". PHP_EOL);
+echo (sayHello(null) === "Hello toto" ? "OK". PHP_EOL: "NOP" . PHP_EOL);
+echo(PHP_EOL);
+echo("exo-2".PHP_EOL);
+echo (findExtension('toto.jpg') === 'jpg' ? "OK".PHP_EOL : "NOP" . PHP_EOL);
+echo (findExtension('azertyuiop.azertyuiop.jpg') === 'jpg' ? "OK".PHP_EOL : "NOP" . PHP_EOL);
+echo (findExtension('a.toto') === 'toto' ? "OK".PHP_EOL : "NOP" . PHP_EOL);
+echo (findExtension('') === null ? "OK".PHP_EOL : "NOP" . PHP_EOL);
+echo (findExtension(null) === null ? "OK".PHP_EOL : "NOP" . PHP_EOL);
+echo (findExtension('.toto') === null ? "OK".PHP_EOL : "NOP" . PHP_EOL);
+echo(PHP_EOL);
+echo("exo-3".PHP_EOL);
+echo( calc('1/2*3') === 1.5 ? "OK".PHP_EOL : "NOP".PHP_EOL);
+echo( calc('1/2/3*9') === 1.5 ? "OK".PHP_EOL : "NOP".PHP_EOL);
+echo( calc('1/2*3') === 1.5 ? "OK".PHP_EOL : "NOP".PHP_EOL);
+echo( calc('9*2-3') === 15 ? "OK".PHP_EOL : "NOP".PHP_EOL);
+echo( calc('1-1-1-1-1-1-1-1*1') === -6 ? "OK".PHP_EOL : "NOP".PHP_EOL);
+echo(PHP_EOL);

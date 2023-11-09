@@ -7,7 +7,6 @@
 // Si le paramètre est ".jpg", renvoyer null
 // Si le paramètre est "Harry.jpg", renvoyer ".jpg"
 
-// lvl : EASY
 
 /////// 👇 CODER CETTE FONCTION
 
