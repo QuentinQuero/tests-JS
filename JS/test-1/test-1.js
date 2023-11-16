@@ -4,7 +4,7 @@
 // Attention: Si le paramètre envoyé est 'Quentin', renvoyez "Hey Quentin"
 // ex :
 // Si aucun paramètre n'est envoyé ou si il est null, renvoyer "Hello toto"
-// Si le paramètre est Quqdfg, renvoyer "Hey Quentin"
+// Si le paramètre est Quqdfg, renvoyer "Hello Quqdfg"
 // Si le paramètre est Harry, renvoyer "Hello Harry"
 
 
