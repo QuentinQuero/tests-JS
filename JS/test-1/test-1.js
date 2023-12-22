@@ -10,15 +10,15 @@
 
 /////// 👇 CODER CETTE FONCTION
 
-function sayHello(){
+function sayHello(name){
     
 }
 
 //////// ☝️ CODER AU DESSUS
 
-sayHello('toto') === "Hello toto" ? console.log("OK") : console.log("NOP")
-sayHello('Quentin') === "Hey Quentin" ? console.log("OK") : console.log("NOP")
-sayHello() === "Hello toto" ? console.log("OK") : console.log("NOP")
-sayHello('Jean') === "Hello Jean" ? console.log("OK") : console.log("NOP")
+sayHello('toto') === "Hello toto" ? console.log("OK (toto)") : console.log("NOP (toto)")
+sayHello('Quentin') === "Hey Quentin" ? console.log("OK") : console.log("NOP la condition pour Quentin n'est pas respectée")
+sayHello() === "Hello toto" ? console.log("OK") : console.log("NOP il faut dire bonjour à toto quand il n'y a pas de nom")
+sayHello('Jean') === "Hello Jean" ? console.log("OK") : console.log("NOP, Jean n'a pas eu de Hello .. ")
 sayHello('') === "Hello " ? console.log("OK") : console.log("NOP")
-sayHello(null) === "Hello toto" ? console.log("OK") : console.log("NOP")
+sayHello(null) === "Hello toto" ? console.log("OK") : console.log("NOP, attention, toto est le nom par défaut")
